@@ -1,0 +1,99 @@
+/** @format */
+
+.product-detail-container {
+    display: flex;
+    flex-direction: column; /* Đổi thành cột cho mobile */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-images {
+    margin-bottom: 20px; /* Tạo khoảng cách giữa hình ảnh và thông tin */
+}
+
+.product-main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    font-size: 20px; /* Kích thước chữ nhỏ hơn trên mobile */
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-description {
+    margin: 10px 0;
+    font-size: 14px; /* Kích thước chữ nhỏ hơn cho mô tả */
+}
+
+.product-price {
+    font-size: 18px; /* Kích thước chữ nhỏ hơn cho giá */
+    color: #d9534f; /* Màu giá */
+    margin: 10px 0;
+}
+
+.product-brand,
+.product-weight {
+    margin: 5px 0;
+    font-size: 14px; /* Kích thước chữ nhỏ hơn cho thông tin bổ sung */
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%; /* Nút chiếm toàn bộ chiều rộng */
+    padding: 10px; /* Tăng kích thước nút cho dễ bấm */
+}
+
+/* Media Query cho Mobile */
+@media (min-width: 768px) {
+    .product-detail-container {
+        flex-direction: row; /* Đổi lại thành hàng cho thiết bị lớn hơn */
+    }
+
+    .product-images {
+        margin-right: 20px; /* Khoảng cách giữa hình ảnh và thông tin */
+    }
+
+    .product-name {
+        font-size: 24px; /* Kích thước chữ lớn hơn cho desktop */
+    }
+
+    .product-description,
+    .product-price,
+    .product-brand,
+    .product-weight {
+        font-size: 16px; /* Kích thước chữ lớn hơn cho desktop */
+    }
+
+    .btn {
+        width: auto; /* Đặt lại chiều rộng nút cho desktop */
+    }
+}
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #d9534f; /* Màu giá */
+}
+
+.product-brand,
+.product-weight {
+    font-size: 16px;
+    margin-top: 5px;
+}

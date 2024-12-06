@@ -1,0 +1,84 @@
+.btn-custom {
+    background: linear-gradient(to right, #fa5130 0%, #fa5130 100%);
+    border: none;
+    outline: none;
+    color: white !important;
+}
+
+.btn-custom i {
+    margin-right: 6px;
+}
+
+.grid-container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+.custom-input-file {
+    user-select: none;
+    cursor: pointer;
+    width: 85px;
+    height: 85px;
+    padding: 5px;
+    border: 2px dashed #fa5130;
+    color: #fa5130;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.grid-container input[type="text"]:focus,
+.grid-container select:focus,
+.grid-container textarea:focus {
+    border-color: #fa5130 !important;
+    box-shadow: none !important;
+    outline: #fa5130 !important;
+}
+
+.custom-input-file i {
+    font-size: 25px;
+}
+
+.productTypes {
+    padding: 20px;
+}
+
+.productTypes + .productTypes {
+    margin-top: 25px;
+}
+
+.modal-custom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.custom-progress {
+    user-select: none;
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    max-width: 500px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom-progress h5 {
+    margin-bottom: 20px;
+}
+
+.progress-custom {
+    position: relative;
+}
+
+.progress-custom .progress-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

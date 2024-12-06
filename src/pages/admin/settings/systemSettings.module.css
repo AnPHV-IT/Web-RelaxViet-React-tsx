@@ -1,0 +1,52 @@
+/**
+ * main.css
+ *
+ * @format
+ */
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Thêm hiệu ứng chuyển màu */
+}
+
+.dark-mode {
+    background-color: #121212; /* Màu nền tối */
+    color: #ffffff; /* Màu chữ sáng */
+}
+
+.dark-mode .MuiButton-root {
+    background-color: #1f1f1f; /* Nền nút */
+    color: #ffffff; /* Màu chữ nút */
+    border: 1px solid #333; /* Viền nút */
+    transition: background-color 0.3s ease; /* Thêm hiệu ứng cho nút */
+}
+
+.dark-mode .MuiButton-root:hover {
+    background-color: #333; /* Nền nút khi hover */
+}
+
+.dark-mode .MuiTextField-root {
+    background-color: #1f1f1f; /* Nền trường văn bản */
+    color: #ffffff; /* Màu chữ trong trường văn bản */
+    border: 1px solid #333; /* Viền trường văn bản */
+}
+
+.dark-mode .MuiInputBase-root {
+    color: #121212; /* Màu chữ trong trường nhập */
+}
+
+.dark-mode .MuiTypography-root {
+    color: #9e9ea5; /* Màu chữ các thành phần Typography */
+}
+
+.dark-mode .MuiFormControlLabel-label {
+    color: #ffffff; /* Màu chữ của label trong FormControlLabel */
+}
+
+/* Bổ sung đổ bóng cho Box */
+.dark-mode .MuiBox-root {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng cho các Box */
+}
+
+/* Cải thiện kiểu dáng cho các thành phần khác nếu cần */

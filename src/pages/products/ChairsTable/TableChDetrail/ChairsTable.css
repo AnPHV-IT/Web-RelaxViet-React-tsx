@@ -1,0 +1,66 @@
+/** @format */
+
+.title-section {
+    text-align: start;
+    margin-top: 20px;
+}
+
+.title-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.title-section h1:hover {
+    color: #3498db;
+}
+
+.search-bar {
+    display: flex; /* Sử dụng flex để dễ dàng căn giữa */
+    justify-content: center;
+    margin-top: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 30%; /* Chiếm toàn bộ chiều rộng */
+}
+
+.search-bar input {
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    flex-grow: 1; /* Cho phép ô tìm kiếm chiếm hết không gian còn lại */
+    transition: background-color 0.3s ease;
+}
+
+.search-bar input::placeholder {
+    color: #7f8c8d;
+}
+
+.search-bar input:focus {
+    border: 2px solid #2980b9;
+    background-color: #ecf0f1;
+}
+
+.search-bar input:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+    .title-section h1 {
+        font-size: 2rem; /* Giảm kích thước tiêu đề trên di động */
+    }
+
+    .search-bar {
+        margin: 0 10px; /* Thêm khoảng cách hai bên cho ô tìm kiếm */
+    }
+
+    .search-bar input {
+        padding: 12px; /* Tăng padding cho dễ sử dụng */
+    }
+}

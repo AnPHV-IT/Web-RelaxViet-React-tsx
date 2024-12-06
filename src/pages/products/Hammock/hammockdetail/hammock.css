@@ -1,0 +1,33 @@
+/** @format */
+/* css cho trang product */
+/* .card-product {
+    height: 527px;
+    width: 240px;
+} */
+/* .card-img-top {
+    height: 300px;
+    width: 100px;
+    object-fit: cover; /* Để đảm bảo hình ảnh không bị méo */
+
+/* Thay đổi màu của các biểu tượng điều hướng trong carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Đổi màu thành đen */
+}
+
+/* Chỉ áp dụng cho các nút có lớp btn-custom */
+.btn-custom .carousel-control-prev-icon,
+.btn-custom .carousel-control-next-icon {
+    filter: invert(100%); /* Đổi màu thành đen */
+}
+
+/* Thu nhỏ hình ảnh để nó nằm gọn trong khung 1000x1000px mà không bị cắt */
+.img-custom {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    max-width: 1000px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Điều chỉnh chiều cao tự động theo tỷ lệ */
+    max-height: 1000px; /* Giới hạn chiều cao tối đa */
+    object-fit: contain; /* Đảm bảo hình ảnh thu nhỏ nhưng không cắt */
+    display: block; /* Tránh khoảng trắng thừa xung quanh hình */
+    margin: 0 auto; /* Căn giữa hình ảnh nếu cần */
+}

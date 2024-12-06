@@ -1,0 +1,24 @@
+/**
+ * Tùy chỉnh cho hình ảnh trong bài viết
+ *
+ * @format
+ */
+
+.article-image {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của khung chứa */
+    height: auto; /* Đảm bảo chiều cao tự động theo tỷ lệ của hình ảnh */
+}
+
+/* Tùy chỉnh cho tiêu đề bài viết */
+.article-title {
+    font-size: 1.25rem; /* Kích thước chữ tiêu đề */
+    font-weight: bold; /* Đậm */
+    margin-top: 1rem; /* Khoảng cách trên */
+}
+
+/* Tùy chỉnh cho nội dung bài viết */
+.article-content {
+    font-size: 1rem; /* Kích thước chữ nội dung */
+    color: #555; /* Màu sắc chữ nội dung */
+    margin-top: 0.5rem; /* Khoảng cách trên */
+}

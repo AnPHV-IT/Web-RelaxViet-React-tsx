@@ -1,0 +1,35 @@
+.user-list {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e60e0e;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.user-list h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.user-list__items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list__item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s;
+}
+
+.user-list__item:hover {
+    background-color: #e9f5ff;
+}
+
+.user-list__name {
+    font-weight: bold;
+}
+
+.user-list__email {
+    color: #555;
+}
